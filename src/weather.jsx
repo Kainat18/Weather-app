@@ -7,7 +7,7 @@ export default function Weather() {
   const [temperature , setTemperature] = useState(null);
 
  /*using api to fetch weather data implementing useEffect hook */
-  const apiKey = 'KxnWYDYcNHt+Wd2vMupUKQ==oeIkErfNMYOumXFF';
+  const apiKey = import.meta.env.VITE_API_KEY;
 
   const fetchWeather = () =>{
     fetch(`https://api.api-ninjas.com/v1/weather?city=${city}`, {
