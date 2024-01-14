@@ -82,7 +82,7 @@ const dynamicWeather = dynamicBackground(weather);
     </p> 
   </div>
 ) : (
-  <p className="">Weather information not available.</p>
+  <p className="weather-not-available">Weather information not available.</p>
 )}
  </div>
 	</div>

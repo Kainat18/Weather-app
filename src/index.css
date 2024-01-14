@@ -37,25 +37,25 @@ html, body {
   height: 100vh;
   padding-top: 90px;
  }
+ .unknown{
+  padding-top:90px;
+ }
  .weather-display {
-  max-width:700px;
-  margin: auto;
-  border-radius: 15px;
-  padding: 20px;
-  color: #FFF;
-  text-align: center;
-  background-color: rgba(0,0,0,0.55);
-  box-shadow: 6.18877px 4.95102px 12.37755px 0px rgba(0, 0, 0, 0.25), 1.23775px 1.23775px 0px 0px rgba(255, 255, 255, 0.25) inset;
-  border: 1.238px solid rgba(255, 255, 255, 0.20);
+max-width:700px;
+margin: auto;
+border-radius: 15px;
+padding: 20px;
+color: #FFF;
+text-align: center;
+background-color: rgba(0,0,0,0.6);
+box-shadow: 6.18877px 4.95102px 12.37755px 0px rgba(0, 0, 0, 0.25), 1.23775px 1.23775px 0px 0px rgba(255, 255, 255, 0.25) inset;
+border: 1.238px solid rgba(255, 255, 255, 0.20);
 }
-
-
 .input-label {
   font-size: 18px;
   display: block;
   margin-bottom: 10px;
 }
-
 .input-field {
   font-family: 'Karla' , serif;
   font-size:15px;
@@ -64,8 +64,6 @@ html, body {
   border-radius: 15px;
   box-shadow: 6.18877px 4.95102px 12.37755px 0px rgba(0, 0, 0, 0.25), 1.23775px 1.23775px 0px 0px rgba(255, 255, 255, 0.25) inset;
 }
-
-
 .get-weather-button {
   font-family: 'Karla' , serif;
   border: 1.238px solid rgba(255, 255, 255, 0.20);
@@ -118,7 +116,7 @@ html, body {
 
 .weather-not-available {
   font-size: 18px;
-  color: #f44336;
+  color: white;
 }
 
 
